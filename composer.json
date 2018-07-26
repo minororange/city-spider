@@ -1,0 +1,21 @@
+{
+    "name": "minor/city_spider",
+    "description": "city spider",
+    "authors": [
+        {
+            "name": "yangchenzhuo",
+            "email": "yangchenzhuo@elegomall.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "bupt1987/html-parser": "^3.0",
+        "illuminate/database": "^5.6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "util\\" : "util/",
+            "eloquent\\":"eloquent/"
+        }
+    }
+}
